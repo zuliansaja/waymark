@@ -1,0 +1,5 @@
+@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+@tailwind base;@tailwind components;@tailwind utilities;
+body{font-family:Inter,system-ui,sans-serif;background:#fff;color:#111827}
+.btn{@apply rounded-xl bg-brand px-4 py-2 text-sm font-semibold text-white disabled:opacity-50}
+.card{@apply rounded-card border border-line bg-white shadow-soft}
